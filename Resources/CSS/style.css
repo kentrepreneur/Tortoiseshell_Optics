@@ -1,10 +1,11 @@
 html {
   font-size: 18px;
   line-height: 1.4;
+  font-family: Helvetica, sans-serif;
 }
 
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -15,9 +16,53 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
+  padding-top: 1rem;
 }
 
+.navbar {
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name img {
+  height: 1.5rem;
+}
+
+.name {
+  padding-left: 1rem;
+}
+
+.nav span {
+  padding-left: 2rem;
+}
+
+.nav span a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta-header {
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  position: relative;
+  top: 10rem;
+  float: right;
+  margin-right: -2rem;
+}
 
 /* Main Content Section -->
 
