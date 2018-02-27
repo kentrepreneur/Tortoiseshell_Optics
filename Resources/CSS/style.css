@@ -1,0 +1,25 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Hero Image Section */
+.hero {
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+
+
+/* Main Content Section -->
+
+
+/* Footer Section -->
