@@ -134,3 +134,17 @@ html {
 }
 
 /* Footer Section */
+.f-content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  background-color: azure;
+  height: 9rem;
+}
+
+.f-content img {
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+  display: inline;
+}
