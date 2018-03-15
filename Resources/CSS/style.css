@@ -11,7 +11,7 @@ html {
 
 /* Hero Image Section */
 .hero {
-  background-image: url("../images/glasses-bg.png");
+  background-image: url("../Images/glasses-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -148,3 +148,4 @@ html {
   padding-right: 1rem;
   display: inline;
 }
+/* fixed background */
